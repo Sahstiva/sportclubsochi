@@ -1,0 +1,34 @@
+.upcoming {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0 0;
+  &-container {
+    width: 1280px;
+  }
+  &-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: $button-color;
+    border-radius: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    line-height: 60px;
+    &__text {
+      text-transform: capitalize;
+    }
+    &__caps {
+      text-transform: uppercase;
+    }
+  }
+  &-cards {
+    padding: 50px 0 0 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-column-gap: 70px;
+  }
+}

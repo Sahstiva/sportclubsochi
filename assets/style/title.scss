@@ -1,0 +1,59 @@
+.title {
+  background-image: url('~assets/images/background_title.jpg');
+  min-height: 820px;
+  width: 100vw;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  // background-filter: brightness(40%);
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    width: 1280px;
+    min-height: 820px;
+    background-image: url('~assets/images/grant.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &-social {
+    padding: 100px 0 50px 0;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    &__icon {
+      text-decoration: none;
+      color: $icons-color;
+      font-size: 60px;
+    }
+  }
+
+  &-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title {
+      font-size: 48px;
+      color: $icons-color;
+      font-family: Roboto, Arial, sans-serif;
+      font-style: italic;
+      text-transform: uppercase;
+      padding: 0 20px;
+      width: 400px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  &-info {
+    &__text {
+      color: $icons-color;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 18px;
+    }
+  }
+}
